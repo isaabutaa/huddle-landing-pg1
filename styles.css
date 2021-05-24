@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./images/bg-mobile.svg') no-repeat left top fixed;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+}
+
+header {
+    padding: 16px;
+}
+
+.logo {
+    width: 175px;
+    padding: 16px;
+}
+
+.bg-illustration {
+    display: block;
+    width: 90%;
+    margin: 16px auto;
+}
+
+main {
+    padding: 16px;  
+}
+
+h1, p {
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+    line-height: 1.5rem;
+}
+
+p, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.05rem;
+}
+
+button {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFF;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    padding: 16px 48px;
+    border-radius: 32px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0;
+}
+
+.icon {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+    height: 100%;
+}
